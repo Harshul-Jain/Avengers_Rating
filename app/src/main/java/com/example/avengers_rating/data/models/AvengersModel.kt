@@ -7,6 +7,7 @@ import androidx.room.PrimaryKey
 data class AvengersModel(
 
     var avenger_name: String,
+    var avenger_image:String,
     var rated: Boolean,
     var stars: Int = 1,
     @PrimaryKey(autoGenerate = true)
